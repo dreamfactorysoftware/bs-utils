@@ -1,0 +1,43 @@
+{
+    "name":              "dreamfactory/bs-utils",
+    "description":       "DreamFactory(tm) Bootstrap Utilities",
+    "homepage":          "https://www.dreamfactory.com/",
+    "keywords":          [
+        "utility",
+        "css",
+        "bootstrap",
+        "laravel",
+        "blade",
+        "dreamfactory"
+    ],
+    "license":           [
+        "Apache-2.0"
+    ],
+    "authors":           [
+        {
+            "name":  "Jerry Ablan",
+            "email": "jerryablan@dreamfactory.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable":     true,
+    "require":           {
+        "symfony/dependency-injection": "*",
+        "symfony/http-foundation":      "*"
+    },
+    "require-dev":       {
+        "laravel/framework": "5.1.*",
+        "phpunit/phpunit":   "@stable"
+    },
+    "autoload":          {
+        "psr-4": {
+            "DreamFactory\\Library\\Utility\\Bootstrap\\":        "src/",
+            "DreamFactory\\Library\\Utility\\Bootstrap\\Tests\\": "tests/"
+        }
+    },
+    "extra":             {
+        "branch-alias": {
+            "dev-develop": "1.1.x-dev"
+        }
+    }
+}

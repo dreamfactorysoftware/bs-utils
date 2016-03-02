@@ -1,0 +1,7 @@
+vendor
+.idea
+tests/storage
+tests/log
+tests/*.log
+docs
+composer.lock
